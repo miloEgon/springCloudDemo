@@ -18,9 +18,10 @@ public class HelloController {
     String port;
 
     @RequestMapping("/getNames")
-    public String getNames(String name) {
-        List<String> names = service.getNames();
-        return "Hello "+name+" ! This is port "+this.port+". We have "+names.size()+" members and they are "+names.toString();
+    public List<String> getNames() {
+        return service.getNames();
     }
+
+
 
 }
