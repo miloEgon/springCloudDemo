@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/hello/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/world/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon/pom.xml" />
       </list>
     </option>
   </component>

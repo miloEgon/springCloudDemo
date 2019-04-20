@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
         <module name="hello" />
+        <module name="ribbon" />
         <module name="springCloudDemo" />
         <module name="world" />
       </profile>
