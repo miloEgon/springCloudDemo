@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@华为云">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.9">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.15">
     <root id="1">
       <ServerVersion>5.6.42</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -1058,7 +1058,7 @@
       <Comment>厂商基本信息</Comment>
     </table>
     <table id="281" parent="3" name="t_factory_logistics">
-      <Comment>物流公司信息.	</Comment>
+      <Comment>物流公司信息.</Comment>
     </table>
     <table id="282" parent="3" name="t_factory_news">
       <Comment>厂商新闻公告</Comment>
@@ -1221,6 +1221,7 @@
       <Comment>系统用户-菜单关联表</Comment>
     </table>
     <routine id="340" parent="3" name="pro">
+      <SourceTextLength>227</SourceTextLength>
       <RoutineKind>procedure</RoutineKind>
     </routine>
     <column id="341" parent="227" name="id">
@@ -3954,7 +3955,7 @@
     </column>
     <column id="754" parent="267" name="skuId">
       <Position>2</Position>
-      <Comment>商品SKU ID </Comment>
+      <Comment>商品SKU ID</Comment>
       <DataType>bigint(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -6043,7 +6044,7 @@ roleId</ColNames>
     <column id="1077" parent="291" name="facId">
       <Position>2</Position>
       <Comment>厂商id&#xd;
-            </Comment>
+</Comment>
       <DataType>bigint(15)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
@@ -6057,7 +6058,7 @@ roleId</ColNames>
     <column id="1079" parent="291" name="whName">
       <Position>4</Position>
       <Comment>仓库名称&#xd;
-            </Comment>
+</Comment>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
