@@ -1,0 +1,31 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 8801
+
+spring:
+  datasource:
+    url: jdbc:mysql://122.112.216.37:3306/cloud?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+    username: root
+    password: Xjq/dj2019
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: helloServer
+
+mybatis:
+  configuration:
+    logImpl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+
+
+
+
+
+
+
+
