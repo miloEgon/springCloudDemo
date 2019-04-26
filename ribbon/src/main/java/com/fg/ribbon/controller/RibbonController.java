@@ -15,7 +15,7 @@ public class RibbonController {
 
     @RequestMapping("/describe")
     public List<String> describe() {
-        return restTemplate.getForObject("http://helloServer/getNames", List.class);
+        return restTemplate.getForObject("http://helloServer/describe", List.class);
     }
 
 }

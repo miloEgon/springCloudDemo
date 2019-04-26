@@ -17,7 +17,7 @@ public class HelloController {
     @Value("${server.port}")
     String port;
 
-    @RequestMapping("/getNames")
+    @RequestMapping("/describe")
     public List<String> getNames() {
         return service.getNames();
     }
