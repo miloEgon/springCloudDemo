@@ -4,12 +4,10 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
 @Mapper
 @Repository
 public interface HelloMapper {
 
-    @Select("select trueName from t_system_user")
-    List<String> getNames();
+    @Select("select * from xzqa_author where id = 1")
+    Object getNames();
 }
