@@ -1,5 +1,4 @@
 HELP.md
-/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -13,9 +12,14 @@ HELP.md
 
 ### IntelliJ IDEA ###
 .idea
+.class
 *.iws
 *.iml
 *.ipr
+/logs/
+/log/
+/upload/
+/target/
 
 ### NetBeans ###
 /nbproject/private/

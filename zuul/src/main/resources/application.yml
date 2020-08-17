@@ -5,6 +5,10 @@ spring:
   application:
     name: zuulServer
 
+ribbon:
+  eureka:
+    enabled: true
+
 eureka:
   client:
     serviceUrl:
